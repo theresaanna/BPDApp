@@ -10,7 +10,6 @@ export default function App() {
     <SafeAreaProvider>
       <View style={styles.container} className=colorScheme>
         <NavigationContainer>
-          <Text>Open up App.js to start working on your app!</Text>
           <StatusBar style="auto" />
         </NavigationContainer>
       </View>
