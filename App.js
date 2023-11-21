@@ -8,7 +8,7 @@ export default function App() {
   let colorScheme = useColorScheme();
   return (
     <SafeAreaProvider>
-      <View style={styles.container} className=colorScheme>
+      <View style={styles.container} className={colorScheme}>
         <NavigationContainer>
           <StatusBar style="auto" />
         </NavigationContainer>
